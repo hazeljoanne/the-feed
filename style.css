@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {cursor: url(https://cur.cursors-4u.net/nature/nat-4/nat301.cur), auto !important;}
+
+
+body {
+background-color: #F4C0D2;
+max-width: 100%;
+margin: 0 auto;
+font-family: "Bodoni Moda", serif;
+}
+
+header{
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+}
+
+h1{
+    color: #F05088;
+    text-align: center;
+    font-size: 12pt;
+}
+
+h2{
+    color: #F05088;
+    font-size: xx-large;
+    text-align:left;
+    margin-left: 2.5%;
+
+}
+
+section {
+    width: 400px; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    padding: 50px;
+    text-align: center;
+    border: 7px #F05088 solid;
+    background-color: #d6f1ff82; 
+    border-radius: 20px;
+}
+
+
+
+section img{
+    width: 400px;
+    border-radius: 20px;
+}
+
+section video {
+    width: 400px;
+    border-radius: 20px;
+}
+
+audio {
+    display: none;
+}
+
+
+nav{
+    background-color:#d6f1ff82;
+    max-width: 25%;
+    padding: 3%;
+    position: fixed;
+    height: 100vh;
+    top: 5%;
+    left: 25px;
+    border-radius: 20px;
+    text-align: center;
+    border: 3.5px #F05088 solid;
+}
+
+#friends{
+padding: 2%;
+background-color: #d6f1ff82;
+border: 2.5px #F05088 dotted;
+text-align: center;
+border-radius: 20px;
+}
+
+main {
+    background-color: #F4C0D2;
+    padding: 3%;
+    max-width: 65%;
+    margin-left: 30%;
+    color: #F05088;
+}
+
+
+h3{
+    width: 150px; 
+    top: 20px;
+    position: fixed; 
+    bottom: 200px; 
+    right: 90px; 
+    background-color: #d6f1ff82;
+    border: solid 10px #F05088; 
+    border-radius: 20px;
+    padding-top: .9%;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: right;
+    color: #F05088;
+}
+
+h3 img{
+    width: 150px;
+    border-radius: 10px;
+    height: 140px;
+
+} 
+
+h4{
+    color: #F05088;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 0;
+}
+
+a {
+text-decoration: none;
+}
+
+h6{
+    color: #F05088;
+    font-size: large;
+    text-align: center;
+}
+
+footer{
+        width: 150px; 
+        top: 550px;
+        position: fixed; 
+        bottom: 25px; 
+        right: 90px; 
+        background-color: #d6f1ff82;
+        border: solid 10px #F05088; 
+        border-radius: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+        text-align: right;
+        color: #F05088;
+    }
+    
