@@ -30,6 +30,11 @@ h2{
 
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 section {
     width: 400px; 
     margin-top: 25px;
@@ -70,6 +75,7 @@ nav{
     border-radius: 20px;
     text-align: center;
     border: 3.5px #F05088 solid;
+    overflow-y: scroll;
 }
 
 #friends{
@@ -78,6 +84,7 @@ background-color: #d6f1ff82;
 border: 2.5px #F05088 dotted;
 text-align: center;
 border-radius: 20px;
+
 }
 
 main {
@@ -90,7 +97,8 @@ main {
 
 
 h3{
-    width: 150px; 
+    width: 10%; 
+    height: 65%; 
     top: 20px;
     position: fixed; 
     bottom: 250px; 
@@ -127,10 +135,13 @@ h6{
     color: #F05088;
     font-size: large;
     text-align: center;
+    
+    
 }
 
 footer{
-        width: 150px; 
+        width: 10%; 
+        height: 10%;
         top: 650px;
         position: fixed; 
         bottom: 25px; 
@@ -143,4 +154,7 @@ footer{
         text-align: right;
         color: #F05088;
     }
+
+
+  
     
